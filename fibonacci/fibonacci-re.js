@@ -1,4 +1,5 @@
 function fibsRec(number) {
+  console.log("This was printed recursively");
   if (number <= 1) {
     // 0 returns [], 1 returns [0]
     return [0].slice(0, number);
